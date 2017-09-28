@@ -16,7 +16,7 @@ Intro:
 
 Nav:
     Home_name: Home
-    is_use_categories : true 
+    is_use_categories : false 
     categories_name: Articles
     is_use_archives : false
     archives_name: Archives
@@ -46,10 +46,10 @@ Nav:
         #   link：“路径”
 
 MainFirst:
-    name: Ladeez First Media
-    description: Projects  
-    pic_url: /images/me.jpg
-    goto_ulr: ""
+    name: Welcome!
+    description: Discover my mobile apps and learn about my other projects.  
+    pic_url: ./images/me.jpg
+    goto_ulr: "/projects/"
 
 Gallery :
     title: Mr.metro 

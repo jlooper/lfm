@@ -30,16 +30,16 @@
                             <% if (post.link) { %>
                                 <a href="<%- url_for(post.link) %>"><h2 class="page_title_text"> <%= post.title %> </h2></a>
                             <% } else { %>
-                                <a href="<%- url_for(post.path) %>"><h2 class="page_title_text"> <%= post.title %> </h2></a>
-                                
-                            <% } %>
+                                <a href="<%- url_for(post.path) %>"><h2 class="page_title_text"> <%= post.title %> </h2></a>                             
+                            <% } %>        
                         </div>
                         <div class="home-post-info">
                             <!-- Author Avatar -->
                             <div class="home-post-info-author-avatar">
-                                <h6><span class="home-post-info-data"><%- date(post.date, "YYYY-MM-DD") %></span></h6>
+                                <h3><%= post.blurb %></h3>
+                                <h6><span class="home-post-info-data"><%- date(post.date, "MMM-DD-YYYY") %></span></h6>
                                 <div class="home-post-info-Category">
-                                    <!-- Category -->
+                                    
                                     <span>
                             <h6>
                             <a class="post_category-link" href="http://localhost:4000/categories/Algorithm/"><%- list_categories(post.categories, {
