@@ -36,7 +36,12 @@
                         <div class="home-post-info">
                             <!-- Author Avatar -->
                             <div class="home-post-info-author-avatar">
-                                <h3><%= post.blurb %></h3>
+                                    <% if (post.link) { %>
+                                        <a href="<%- url_for(post.link) %>"><h3><%= post.blurb %></h3></a>
+                                    <% } else { %>
+                                        <a href="<%- url_for(post.path) %>"><h3><%= post.blurb %></h3></a>                             
+                                    <% } %> 
+                                
                                 <h6><span class="home-post-info-data"><%- date(post.date, "MMM-DD-YYYY") %></span></h6>
                                 <div class="home-post-info-Category">
                                     

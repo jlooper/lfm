@@ -35,16 +35,14 @@ Nav:
             link:
     pages:
         About: 
-            link: "/about/"
+            link: "./about/"
         Contact :
-            link: "/contact/"
+            link: "./contact/"
         Blog :
-            link: "/blog/"
+            link: "./blog/"
         Projects:
-            link: "/projects/"
-        #自定义标签名
-        #   link：“路径”
-
+            link: "./projects/"
+        
 MainFirst:
     name: Welcome!
     description: Discover my mobile apps and learn about my other projects.  
