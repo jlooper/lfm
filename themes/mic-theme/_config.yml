@@ -35,13 +35,13 @@ Nav:
             link:
     pages:
         About: 
-            link: "./about/"
+            link: "/about/"
         Contact :
-            link: "./contact/"
+            link: "/contact/"
         Blog :
-            link: "./blog/"
+            link: "/blog/"
         Projects:
-            link: "./projects/"
+            link: "/projects/"
         
 MainFirst:
     name: Welcome!
