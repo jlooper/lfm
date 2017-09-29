@@ -18,8 +18,8 @@ Nav:
     Home_name: Home
     is_use_categories : false 
     categories_name: Articles
-    is_use_archives : false
-    archives_name: Archives
+    is_use_archives : true
+    archives_name: Blog
     icon:
         github: 
             use: true
@@ -38,8 +38,6 @@ Nav:
             link: "./about/"
         Contact :
             link: "./contact/"
-        Blog :
-            link: "./blog/"
         Projects:
             link: "./projects/"
         
