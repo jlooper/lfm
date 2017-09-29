@@ -1,172 +1,24 @@
 ---
-title: Contact Me
+title: Contact Us
 date: 2017-09-28 16:02:55
 thumbnail: images/write.jpg
 ---
-
-<style>
-/* ==========================================================================
-#CONTACT PAGE
-========================================================================== */
-/* an adaptation of http://tympanus.net/codrops/2015/01/08/inspiration-text-input-effects/ */
-
-#contactform, .form {
-    margin-top: 2rem;
-}
-.field {
-    border: none;
-    position: relative;
-    z-index: 1;
-    display: inline-block;
-    margin: 0 1em 0 0;
-    /* this is almost a third, on my own site I use calc(33% - 0.66rem) for width */
-    width: 30%;
-    vertical-align: top;
-    overflow: hidden;
-    font-family: "adelle-sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-}
-.field:nth-child(3) {
-    margin-right: 0;
-}
-.input {
-    position: relative;
-    display: block;
-    float: right;
-    border: none;
-    border-radius: 0;
-    -webkit-appearance: none; /* for box shadows to show on iOS */
-    width: 100%;
-    background: transparent;
-    padding: 0.5em;
-    margin-bottom: 2em;
-    z-index: 100;
-    opacity: 0;
-    height: 2rem;
-}
-
-textarea.input {
-    resize: none;
-    padding-bottom: 0;
-}
-
-.input:focus {
-    outline: none;
-}
-
-.label {
-    display: inline-block;
-    float: right;
-    color: hsla(221,72%,55%,1);
-    font-weight: bold;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    width: 100%;
-    position: absolute;
-    text-align: left;
-    padding: 0.5em 0;
-    pointer-events: none;
-    font-size: 1em;
-}
-.label::before,
-.label::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    left: 0;
-}
-.label::before {
-    height: 100%;
-    background: #fff;
-    top: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-    -webkit-transition: -webkit-transform 0.3s;
-    transition: transform 0.3s;
-}
-.label::after {
-    height: 2px;
-    background: hsla(221,72%,55%,1);
-    top: 100%;
-    -webkit-transition: opacity 0.3s;
-    transition: opacity 0.3s;
-}
-
-.label-content {
-    position: relative;
-    display: block;
-    width: 100%;
-    padding: 0;
-    -webkit-transform-origin: 0 0;
-    transform-origin: 0 0;
-    -webkit-transition: -webkit-transform 0.3s, color 0.3s;
-    transition: transform 0.3s, color 0.3s;
-}
-
-.input:focus,
-.input--filled .input {
-    opacity: 1;
-    -webkit-transition: opacity 0s 0.3s;
-    transition: opacity 0s 0.3s;
-}
-
-.input:focus + .label::before,
-.input--filled .label::before {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-}
-
-.input:focus + .label::after,
-.input--filled .label::after {
-    opacity: 0;
-}
-
-.input:focus + .label .label-content,
-.input--filled .label .label-content {
-    color: #cbc4c6;
-    -webkit-transform: translate3d(0, 2.1em, 0) scale3d(0.65, 0.65, 1);
-    transform: translate3d(0, 2.1em, 0) scale3d(0.65, 0.65, 1);
-}
-
-.button, input[type=submit] {
-    -webkit-appearance: none;
-    border: none;
-    border-radius: 0.25rem;
-    padding: 0.5em;
-    color: #fff;
-    background-color: hsla(221,72%,55%,1);
-    transition: all 0.3s ease-out;
-    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.18),0 2px 10px 0 rgba(0,0,0,0.15);
-    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.18),0 2px 10px 0 rgba(0,0,0,0.15);
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.18),0 2px 10px 0 rgba(0,0,0,0.15);
-}
-.button:hover, .button:focus, .button:active {
-    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.23),0 4px 15px 0 rgba(0,0,0,0.20);
-    -moz-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.23),0 4px 15px 0 rgba(0,0,0,0.20);
-    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.23),0 4px 15px 0 rgba(0,0,0,0.20);
-}
-
-
-</style>
-<form action="//formspree.io/jen.looper@gmail.com" method="POST">
- <fieldset>
- <label for="name">Your name</label><br>
- <input type="text" name="name" placeholder="Name" id="name" required>
- </fieldset>
- <fieldset>
- <label for="_replyto">Your email</label><br>
- <input type="email" name="_replyto" placeholder="example@domain.com" id="_replyto" required>
- </fieldset>
- <fieldset>
- <label for="message">Your message</label><br>
- <textarea name="message" rows="10" placeholder="Message" id="message" required></textarea>
- </fieldset>
- <input class="hidden" type="text" name="_gotcha" style="display:none">
- <input class="hidden" type="hidden" name="_subject" value="Message via http://ladeezfirstmedia.com">
-<input class="button submit" type="submit" value="Send">
-</form>
+<div id="wufoo-w5o8xs70xri91t">
+Fill out my <a href="https://ladeezfirstmedia.wufoo.com/forms/w5o8xs70xri91t">online form</a>.
+</div>
+<script type="text/javascript">var w5o8xs70xri91t;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'ladeezfirstmedia',
+'formHash':'w5o8xs70xri91t',
+'autoResize':true,
+'height':'437',
+'async':true,
+'host':'wufoo.com',
+'header':'show',
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { w5o8xs70xri91t = new WufooForm();w5o8xs70xri91t.initialize(options);w5o8xs70xri91t.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
