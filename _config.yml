@@ -79,4 +79,4 @@ theme: mic-theme
 deploy:
   type: git
   repo: git@github.com:jlooper/lfm.git
-  branch: master
+  branch: gh-pages
