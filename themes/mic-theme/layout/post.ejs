@@ -30,10 +30,15 @@
         <%- partial('_partial/nav' , {}, {cache: true}) %>
 
         <div id="main" >
+        <% if(page.layout === 'plain') { %> 
+                <h2 style="padding: 10px"><%= page.title %></h2>
+        <% } else { %>
             <div class ="post_page_title_img" style="height: 25rem;background-image: url(<%= page.thumbnail %>);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
                 <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 ><%= page.title %></h2></a>
             </div>
-            <!-- Post -->
+        <% } %>
+            
+        <!-- Post -->
             <div class="typo" style="padding: 3rem;">
                 <%-page.content%>
             </div>
