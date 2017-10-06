@@ -7,7 +7,7 @@ head:
     favicon: "/img/logo_miccall.png"
     high_res_favicon: "/img/logo_miccall.png"
     apple_touch_icon: "/img/logo_miccall.png"
-    keywords: miccall
+    keywords: Ladeez First Media, Jen Looper, Developer Advocate, Mobile and Web Developer
 
 Intro:
     name: Jen Looper
@@ -41,13 +41,13 @@ Nav:
         Projects:
             link: "./projects/"
         Speaking:
-            link: "./speaking"
+            link: "./speaking/"
         
 MainFirst:
     name: Welcome!
     description: Discover my mobile apps and learn about my other projects.  
     pic_url: ./images/me.jpg
-    goto_ulr: "/projects/"
+    goto_ulr: "./projects/"
 
 Gallery :
     title: Ladeez First Media 
