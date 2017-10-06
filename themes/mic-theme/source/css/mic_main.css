@@ -4260,6 +4260,15 @@
 			text-align: center;
 		}
 
+		.link_box.special.projects {
+			border: 1px solid #eeeeee;	
+			padding:10px;
+		}
+
+		.project_button{
+			font-size: 20px;
+		}
+
 		.link_box .image.featured {
 			border-radius: 0;
 			display: block;
