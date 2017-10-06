@@ -1,7 +1,7 @@
 ---
 title: Contact Us
 date: 2017-09-28 16:02:55
-thumbnail: images/write.jpg
+layout: plain
 ---
 <div id="wufoo-w5o8xs70xri91t">
 Fill out my <a href="https://ladeezfirstmedia.wufoo.com/forms/w5o8xs70xri91t">online form</a>.
