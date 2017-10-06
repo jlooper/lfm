@@ -47,7 +47,7 @@ MainFirst:
     name: Welcome!
     description: Discover my mobile apps and learn about my other projects.  
     pic_url: ./images/me.jpg
-    goto_ulr: "./projects/"
+    goto_ulr: "/projects/"
 
 Gallery :
     title: Ladeez First Media 
