@@ -1,5 +1,5 @@
 ---
 title: blog
 date: 2017-09-28 23:02:57
-layout: tags
+layout: plain
 ---
