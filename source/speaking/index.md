@@ -3,7 +3,7 @@ title: speaking
 date: 2017-10-05 17:56:30
 layout: plain
 ---
-I have spoken at conferences around the world on technical topics. Contact me if you'd like to learn more.
+I have spoken at conferences around the world on technical topics. Contact me if you need a speaker or a keynote.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BM98sUHqaas" frameborder="0" allowfullscreen></iframe>
 
